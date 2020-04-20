@@ -39,14 +39,20 @@ td {
 }
 
 hr {
-  border: dotted #40514E 6px;
+  border: dotted #40514E 5px;
   border-bottom: none;
+  border-left: none;
+  border-right: none;
   width: 2%;
 
 }
 a {
   color: #40514E;
   font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 .tag {
   font-weight: lighter;
@@ -93,12 +99,23 @@ a {
 }
 
 .third-container {
-  height: 1200px;
+  height: 1070px;
   background-color: #aacfcf;
   position: relative;
 }
-
 .fourth-container {
+  margin-top: 0;
+  height: 600px;
+  background-color: #aacfcf;
+
+}
+.skills {
+  padding-bottom: 50px;
+}
+.fel-skills {
+  height: 400px;
+}
+.fifth-container {
   background-color: #679b9b;
   padding: 50px 0 20px;
 }
@@ -155,4 +172,8 @@ a {
 .email {
   display: inline-block;
   padding-right: 20px;
+}
+.copyright {
+  font-size: 9px;
+  padding-top: 10px;
 }
